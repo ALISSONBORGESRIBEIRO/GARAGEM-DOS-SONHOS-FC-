@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(01.jpg);
+    background-position: center;
+    background-size: 100%;
+    font-family: initial;
+    font-style: italic;
+    overflow-x: hidden;
+}
+
+.cabeçalhoprincipal .container {
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.cabeçalho {
+    margin-left: 110vh;
+}
+
+.menu {
+    margin-left: 20px;
+}
+
+.informação {
+    background-color:rgb(163, 163, 163);
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+
+.informação .texto {
+    margin-left: 30px;
+}
+
+.imagem {
+    background-position: center;
+    width: 211vh;
+}
+
+.listacontainer {
+    margin-top: 100vh;
+    background-color: rgb(163, 163, 163);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    width: 50vh;
+    margin: 10px;
+    margin-left: 75px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skyline {
+    background-image: url(01.jpg);
+    background-position: center;
+    width: 211vh;
+}
+
+.supra {
+    background-image: url(02.jpg);
+    background-position: center;
+    width: 211vh;
+}
+
+.rx7 {
+    background-image: url(03.jpg);
+    background-position: center;
+    width: 211vh;
+}
+
+.s13 {
+    background-image: url(04.jpg);
+    background-position: center;
+    width: 211vh;
+}
+
+.nsx {
+    background-image: url(05.jpg);
+    background-position: center;
+    width: 211vh;
+}
+
+.gtr {
+    background-image: url(06.jpg);
+    background-position: center;
+    width: 211vh;
+}

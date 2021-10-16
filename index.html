@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GARAGEM DOS SONHOS</title>
+</head>
+<body>
+    <header class="cabeçalhoprincipal">
+        <div class="container">
+            <h1 class="logo">GARAGEM DOS SONHOS</h1>
+
+                <nav class="cabeçalho">
+                    <a class="menu" href="#info">INFO</a>
+                    <a class="menu" href="#foto">FOTO</a>
+                    <a class="menu" href="#carros">CARROS</a>
+                </nav>
+        </div>
+    </header>
+    <main id="info" class="informação">
+        <h3 class="texto">Selecione o carro que deseja a baixo e ele aparecera na tela</h3>
+    </main>
+    
+    <footer id="carros" class="listacontainer">
+        <div class="lista">
+            <button id="skyline" class="button" type="button">SKYLINE GTR R34</button>
+            <button id="supra" class="button" type="button">TOYOTA SUPRA</button>
+            <button id="rx7" class="button" type="button">MARZA RX7</button>
+            <button id="s13" class="button" type="button">SILVIA S13</button>
+            <button id="nsx" class="button" type="button">HONDA NSX</button>
+            <button id="gtr" class="button" type="button">NISSAN GTR R35</button>
+        </div>
+    </footer>
+</body>
+</html>
+<script>
+    document.getElementById("skyline").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","skyline");
+            })
+
+    document.getElementById("supra").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","supra");
+            })     
+    document.getElementById("rx7").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","rx7");
+            }) 
+    document.getElementById("s13").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","s13");
+            })  
+    document.getElementById("nsx").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","nsx");
+            })   
+    document.getElementById("gtr").addEventListener("click", function(){
+                document.querySelector("body").setAttribute("class","gtr");
+            })   
+</script>
