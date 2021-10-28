@@ -5,9 +5,7 @@
 }
 
 body {
-    background-image: url(01.jpg);
     background-position: center;
-    background-size: 100%;
     font-family: initial;
     font-style: italic;
     overflow-x: hidden;
@@ -30,6 +28,7 @@ body {
 
 .menu {
     margin-left: 20px;
+    color: black;
 }
 
 .informação {
@@ -49,56 +48,71 @@ body {
 }
 
 .listacontainer {
-    margin-top: 100vh;
     background-color: rgb(163, 163, 163);
-    height: 20vh;
+    height: 300vh;
     display: flex;
     align-items: center;
     
 }
 
+.lista {
+    margin-left: 0px;
+}
+
 .button {
     background-color: rgb(255, 255, 255);
     width: 50vh;
+    height: 20vh;
     margin: 10px;
-    margin-left: 75px;
+    margin-left: 70px;
     border: 0;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.skyline {
-    background-image: url(01.jpg);
-    background-position: center;
-    width: 211vh;
+@media (max-width: 600px) {
+
+    body {
+        width: 100vh;
+        height: 100vh;
+    }
+
+    .cabeçalhoprincipal .container {
+        width: 60px;
+        height: 20vh;
+        
+    }
+
+    .cabeçalho {
+        margin-left: 70vh;
+    }
+
+    .informação {
+        width: 100vh;
+        height: 20vh;
+    }
+
+    .logo {
+        width: 20px;
+    }
+
+    .imagem {
+        width: 100vh;
+    }
+
+    .listacontainer {
+        height: 320vh;
+        width: 100vh;
+    }
+
+    .button {
+        
+        width: 20vh;
+        margin: 10px;
+        margin-left: 65px;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 }
 
-.supra {
-    background-image: url(02.jpg);
-    background-position: center;
-    width: 211vh;
-}
-
-.rx7 {
-    background-image: url(03.jpg);
-    background-position: center;
-    width: 211vh;
-}
-
-.s13 {
-    background-image: url(04.jpg);
-    background-position: center;
-    width: 211vh;
-}
-
-.nsx {
-    background-image: url(05.jpg);
-    background-position: center;
-    width: 211vh;
-}
-
-.gtr {
-    background-image: url(06.jpg);
-    background-position: center;
-    width: 211vh;
-}

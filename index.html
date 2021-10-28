@@ -20,39 +20,47 @@
         </div>
     </header>
     <main id="info" class="informação">
-        <h3 class="texto">Selecione o carro que deseja a baixo e ele aparecera na tela</h3>
+        <h3 class="texto">Selecione o carro que deseja a baixo <br> e ele aparecera na tela</h3>
     </main>
     
-    <footer id="carros" class="listacontainer">
+    <img id="img" class="imagem" src="img/01.jpg">
+
+    <section id="carros" class="listacontainer">
         <div class="lista">
-            <button id="skyline" class="button" type="button">SKYLINE GTR R34</button>
-            <button id="supra" class="button" type="button">TOYOTA SUPRA</button>
-            <button id="rx7" class="button" type="button">MARZA RX7</button>
-            <button id="s13" class="button" type="button">SILVIA S13</button>
-            <button id="nsx" class="button" type="button">HONDA NSX</button>
-            <button id="gtr" class="button" type="button">NISSAN GTR R35</button>
+            <button id="skyline" class="button" type="button" onclick="document.getElementById('img').src='img/01.jpg'">SKYLINE GTR R34</button>
+            <button id="supra" class="button" type="button" onclick="document.getElementById('img').src='img/02.jpg'">TOYOTA SUPRA</button>
+            <button id="rx7" class="button" type="button" onclick="document.getElementById('img').src='img/03.jpg'">MARZA RX7</button>
+            <button id="s13" class="button" type="button" onclick="document.getElementById('img').src='img/04.jpg'">SILVIA S13</button>
+            <button id="nsx" class="button" type="button" onclick="document.getElementById('img').src='img/05.jpg'">HONDA NSX</button>
+            <button id="gtr" class="button" type="button" onclick="document.getElementById('img').src='img/06.jpg'">NISSAN GTR R35</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/07.jpg'">SUBARO IMPRESA WRX</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/08.jpg'">MITSUBISHI LANCER EVO X</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/09.jpg'">LAMBORGHINI AVENTADOR</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/10.jpg'">FERRARI 458</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/11.jpg'">NISSAN 350Z</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/12.jpg'">BMW E36</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/13.jpg'">AUDI TT RS</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/14.jpg'">FIAT UNO COM ESCADA</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/15.jpg'">GOL G5 REBAIXADO</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/16.jpg'">CHEVROLET D20</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/17.jpg'">FUSCA</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/18.jpg'">chevrolet Omega</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/19.jpg'">chevrolet corsa</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/20.jpg'">Silvia s14</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/21.jpg'">chevrolet celta</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/22.jpg'">chevrolet jetta</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/23.jpg'">honda civic 2020</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/24.jpg'">Ranger rover <br>Evoque</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/25.jpg'">fiat uno 2010</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/26.jpg'">toyota gt86</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/27.jpg'">toyota starlet KP61</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/28.jpg'">Mitsubishi 3000gt</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/29.jpg'">Mitsubishi lancer<br> evo 9</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/30.jpg'">madza mx5 nb</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/31.jpg'">madza mx5 nd</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/32.jpg'">honda civic EG6</button>
+            <button id="subaro" class="button" type="button" onclick="document.getElementById('img').src='img/33.jpg'">honda civic Type-r EP3</button>
         </div>
-    </footer>
+    </section>
 </body>
 </html>
-<script>
-    document.getElementById("skyline").addEventListener("click", function(){
-                document.querySelector("body").setAttribute("class","skyline");
-            })
-
-    document.getElementById("supra").addEventListener("click", function(){
-                document.querySelector("body").setAttribute("class","supra");
-            })     
-    document.getElementById("rx7").addEventListener("click", function(){
-                document.querySelector("body").setAttribute("class","rx7");
-            }) 
-    document.getElementById("s13").addEventListener("click", function(){
-                document.querySelector("body").setAttribute("class","s13");
-            })  
-    document.getElementById("nsx").addEventListener("click", function(){
-                document.querySelector("body").setAttribute("class","nsx");
-            })   
-    document.getElementById("gtr").addEventListener("click", function(){
-                document.querySelector("body").setAttribute("class","gtr");
-            })   
-</script>
