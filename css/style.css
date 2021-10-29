@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +8,8 @@
 
 body {
     background-position: center;
-    font-family: initial;
-    font-style: italic;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 .cabeçalhoprincipal .container {
@@ -113,6 +114,30 @@ body {
         border: 0;
         border-radius: 5px;
         cursor: pointer;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .logo {
+        width: 10px;
+    }
+
+
+    .button {
+        margin-left: 70px;
+        
+    }
+
+    .listacontainer {
+        height: 260vh;
+        width: 100vh;
+    }
+
+    .cabeçalho {
+        width: 200px;
+        display: flex;
+        margin-left: 60vh;
     }
 }
 
