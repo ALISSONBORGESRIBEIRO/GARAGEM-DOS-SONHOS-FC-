@@ -71,6 +71,12 @@ body {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: dimgrey;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
 @media (max-width: 750px, max-height: 1600px) {
 
     .logo {
@@ -128,6 +134,7 @@ body {
     .listacontainer {
         height: 280vh;
         width: 100vh;
+    
     }
 
     .button {
